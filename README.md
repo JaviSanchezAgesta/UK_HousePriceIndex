@@ -17,9 +17,9 @@ The full details of the data are available [here](https:)
 
 For this project the following Python libraries were used:
 
-•	Pandas - for data analysis
+-	Pandas - for data analysis
 
-•	Seaborn - for visualization
+-	Seaborn - for visualization
 
 - Matplotlib - for visualizations
 
