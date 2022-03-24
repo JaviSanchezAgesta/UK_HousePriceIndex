@@ -23,6 +23,8 @@ For this project the following Python libraries were used:
 
 - Matplotlib - for visualizations
 
+- Datetime - for time series data
+- 
 ## Folders contents
 
 The code is available as jupyter notebooks, available in the different subfolders:
