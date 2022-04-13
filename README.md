@@ -9,13 +9,25 @@ Through the project we will try to find out what is the trend of the price sales
 
 ## Data
 
-The data set has been downloaded from the official website of the UK Government, www.gov.uk, in the Home section. It contains information about the following: 
+The data set has been downloaded from the official website of the UK Government, www.gov.uk, in the Home section. The UK HPI captures changes in the value of residential properties. 
 
-- Average selling price for the sold houses in the UK from 1965 to 2021. The houses are divided by features such as old, new, detached, semi-detached, terraced, flat, mortgage/ cash as payment method.
+- It includes all residential properties purchased for market value in the UK. The dataset contains the sale price of the property, the date when the sale was completed, full address details, the type of property (such as detached, semi-detached, terraced or flat), if it is a newly built property or an established residential building and a variable to indicate if the property has been purchased as a financed transaction (for example using a mortgage) or as a non-financed transaction (cash purchase). 
 
-- Index for each of the years and locations.
+- Index SA and Average Prices SA show the seasonally adjusted variables for a geography in a particular period. 
+
+- FTB and FOO data indicate whether the transactions were relating to First Time Buyers (FTB) or Former Occupier Owners(FOO).
+
+- Data is available at a national and regional level, as well as counties, local authorities and London boroughs. 
 
 The full details of the data are available [here](https://www.gov.uk/government/statistical-data-sets/uk-house-price-index-data-downloads-december-2021)
+
+### Data Limitations & Ethical Considerations
+
+In terms of the collection and processing of the data, the UK HPI is not as timely in publishing as other house price index measures published in the UK. This is because it is based on completed sales at the end of the conveyancing process, rather than advertised or approved prices. As sales only appear in the UK HPI once the purchases have been registered, there can be a delay before transactions feed into the index. As such, caution is advised when interpreting price changes in the most recent periods as they can be revised. 
+
+Another limitation is the availability of data. From 1968 to 1994, the only data available is divided by regions, more specifically East Midlands, England, London, Northern Ireland, Scotland, South West, United Kingdom, Wales, West Midlands Region, Yorkshire the Humber. For this reason, four our tests and comparisons we will base our analysis in these major areas, although we will keep the counties data for further specific analysis.
+
+In terms of ethical limitations, the full address details have been suppressed to comply with the European GDPR, in a way that no data could be specifically related to any individual. Data is publicly available and the use is allowed with educational purposes, so we are good to go ahead with our analysis.
 
 ## Tools 
 
