@@ -9,9 +9,10 @@ Through the project we will try to find out what is the trend of the price sales
 
 ## Data
 
-The data set contains information about the following: 
+The data set has been downloaded from the official website of the UK Government, www.gov.uk, in the Home section. It contains information about the following: 
 
-- Average selling price for the sold houses in the UK from 1965 to 2021. The houses are divided by features such as old, new, detached, semi-detaced, terraced, flat, mortgage/ cash as payment method.
+- Average selling price for the sold houses in the UK from 1965 to 2021. The houses are divided by features such as old, new, detached, semi-detached, terraced, flat, mortgage/ cash as payment method.
+
 - Index for each of the years and locations.
 
 The full details of the data are available [here](https://www.gov.uk/government/statistical-data-sets/uk-house-price-index-data-downloads-december-2021)
